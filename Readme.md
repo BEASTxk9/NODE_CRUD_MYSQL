@@ -31,5 +31,6 @@
 4. `Connect` your `mysql database` using `clever cloud` then take the db `environment variable`s from the `expert` tab under `information` on the `clever cloud` website and place it into the `.env` file which will be the variable names used to connect to the database on the `app.js` file.
 
 
-
 5. Once the connection is established you can go to mysql workbench and use the db by running `USE MYSQL_DATABASE_NAME` 
+
+6. Create a `.gitignore` file to not push you db details in the `.env` file and node_modules packages to github
